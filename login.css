@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    background-color: gray;
+    padding: 15px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+main {
+    width: 400px;
+    background-color: white;
+    padding: 15px;
+    margin: auto;
+}
+
+.btn-nav {
+    display: block;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-nav:hover {
+    background-color: brown;
+    color: white;
+}
+
+label,
+input {
+    display: block;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 7px;
+}
+
+.error-message {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.success-message {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
